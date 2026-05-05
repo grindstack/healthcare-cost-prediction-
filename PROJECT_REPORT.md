@@ -12,18 +12,7 @@ Data preprocessing involved filtering to December records for complete annual ob
 
 Feature engineering focused on domain-informed signals: HCC score trends (year-over-year and 2-year changes), cost ratios (inpatient and outpatient), utilization metrics (visits-per-claim, cost-per-claim, emergency ratio, admission ratio), chronic disease burden, and procedure/diagnosis/hospital stay code counts and diversity. These features translate healthcare domain knowledge into predictive signals.
 
-THRESHOLD OPTIMIZATION
 
-Threshold optimization through grid search determined that 0.61 was optimal for maximizing F1-score, outperforming the default 0.5. At this threshold, the model achieved F1-Score of 0.419, Precision of 0.415, and Recall of 0.423. The leaderboard score of 0.399 indicates minor distribution shift between validation and test data.
-
-RESULTS
-
-Validation Metrics:
-    F1-Score: 0.419
-    Precision: 0.415
-    Recall: 0.423
-    Leaderboard Score: 0.399
-    Optimal Threshold: 0.61
 
 KEY SUCCESS FACTORS
 
